@@ -1,0 +1,31 @@
+[Eagle]
+Version="07 07 00"
+Platform="Mac OS X"
+Serial="631B29E14F-LSR-WLM-3EP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Users/hll/Documents/eagle/lbr/AD5242.lbr"
+UsedLibrary="/Users/hll/Documents/eagle/lbr/ADG715.lbr"
+UsedLibrary="/Users/hll/Documents/eagle/lbr/CPC1002N.lbr"
+UsedLibrary="/Users/hll/Documents/eagle/lbr/PCA9547PW.lbr"
+UsedLibrary="/Users/hll/Documents/eagle/lbr/PSSI2021SAY.lbr"
+UsedLibrary="/Users/hll/Documents/eagle/lbr/SAMTEC.lbr"
+UsedLibrary="/Users/hll/Documents/eagle/lbr/WURTH-COLOR_LED-rev1.lbr"
+UsedLibrary="/Users/hll/Documents/eagle/lbr/fcounter.lbr"
+UsedLibrary="/Applications/EAGLE-7.7.0/lbr/rcl.lbr"
+UsedLibrary="/Applications/EAGLE-7.7.0/lbr/supply1.lbr"
+UsedLibrary="/Applications/EAGLE-7.7.0/lbr/transistor-npn.lbr"
+UsedLibrary="/Applications/EAGLE-7.6.0/lbr/frames.lbr"
+UsedLibrary="/Applications/EAGLE-7.6.0/lbr/led.lbr"
+UsedLibrary="/Applications/EAGLE-7.6.0/lbr/element14/Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev16b.lbr"
+UsedLibrary="/Applications/EAGLE-7.6.0/lbr/element14/Texas Instruments/Texas Instruments_By_element14_Batch_1.lbr"
+UsedLibrary="/Applications/EAGLE-7.6.0/lbr/element14/di_microzed (1).lbr"
+UsedLibrary="/Applications/EAGLE-7.6.0/lbr/element14/Analog Devices/Analog Devices_By_element14_Batch_1.lbr"
+UsedLibrary="/Users/hll/Documents/eagle/lbr/MAX14830ETM+/EAGLE/MAX14830ETM+.lbr"
+UsedLibrary="/Applications/EAGLE-7.7.0/lbr/element14/NXP/NXP_By_element14_Batch_1.lbr"
+
+[Desktop]
+Screen="640 480"
