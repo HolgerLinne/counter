@@ -1,0 +1,2054 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt; Developed By element14 &lt;/b&gt;&lt;p&gt; 
+
+For feedback and Technical support please contact reach from below:
+&lt;br&gt; Tech Support e-mail  : &lt;a href="mailto:CAD_Tech@element14.com"&gt;CAD_Tech@element14.com&lt;/a&gt;
+&lt;br&gt;Community website: &lt;a href=http://www.element14.com/community/community/knode/cad_tools/cadsoft_eagle/eagle_cad_libraries&gt;
+EAGLE CAD Libraries on element14&lt;/a&gt;</description>
+<packages>
+<package name="RESC1005X40N">
+<smd name="1" x="-0.5842" y="0" dx="0.6604" dy="0.6096" layer="1"/>
+<smd name="2" x="0.5842" y="0" dx="0.6604" dy="0.6096" layer="1"/>
+<wire x1="-0.254" y1="-0.3048" x2="-0.254" y2="0.3048" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="0.3048" x2="-0.5588" y2="0.3048" width="0.1524" layer="51"/>
+<wire x1="-0.5588" y1="-0.3048" x2="-0.254" y2="-0.3048" width="0.1524" layer="51"/>
+<wire x1="0.254" y1="0.3048" x2="0.254" y2="-0.3048" width="0.1524" layer="51"/>
+<wire x1="0.254" y1="-0.3048" x2="0.5588" y2="-0.3048" width="0.1524" layer="51"/>
+<wire x1="0.5588" y1="0.3048" x2="0.254" y2="0.3048" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-0.3048" x2="0.254" y2="-0.3048" width="0.1524" layer="51"/>
+<wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0.1524" layer="51"/>
+<wire x1="0.254" y1="0.3048" x2="-0.254" y2="0.3048" width="0.1524" layer="51"/>
+<wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0.1524" layer="51"/>
+<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<wire x1="-1.016" y1="0.381" x2="1.016" y2="0.381" width="0.127" layer="39"/>
+<wire x1="1.016" y1="0.381" x2="1.016" y2="-0.381" width="0.127" layer="39"/>
+<wire x1="1.016" y1="-0.381" x2="-1.016" y2="-0.381" width="0.127" layer="39"/>
+<wire x1="-1.016" y1="-0.381" x2="-1.016" y2="0.381" width="0.127" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RESH">
+<pin name="R2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="R1" x="12.7" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-1.27" x2="8.255" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
+<text x="-0.5842" y="-6.1976" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="RESV">
+<pin name="1" x="0" y="12.7" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="3.175" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="3.175" x2="1.27" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="4.445" x2="-1.27" y2="5.715" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="5.715" x2="1.27" y2="6.985" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="8.255" x2="1.27" y2="9.525" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="9.525" x2="0" y2="10.16" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="6.985" x2="-1.27" y2="8.255" width="0.2032" layer="94"/>
+<text x="1.905" y="7.2136" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="1.905" y="0.1524" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ERJ-2RKF" prefix="R" uservalue="yes">
+<description>Precision Thick Film Chip Resistors,0402,0.1 W,±1 %</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="3572X">
+<attribute name="MPN" value="ERJ-2RKF3572X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282807" constant="no"/>
+<attribute name="OC_NEWARK" value="53W4338" constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="35.7K" constant="no"/>
+</technology>
+<technology name="3573X">
+<attribute name="MPN" value="ERJ-2RKF3573X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282808 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4339 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="357K" constant="no"/>
+</technology>
+<technology name="3600X">
+<attribute name="MPN" value="ERJ-2RKF3600X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282810 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4341 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="360 OHM" constant="no"/>
+</technology>
+<technology name="3601X">
+<attribute name="MPN" value="ERJ-2RKF3601X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282812 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4342 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="3.6K" constant="no"/>
+</technology>
+<technology name="3602X">
+<attribute name="MPN" value="ERJ-2RKF3602X " constant="no"/>
+<attribute name="OC_FARNELL" value="2282813 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4343 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="36K" constant="no"/>
+</technology>
+<technology name="3603X">
+<attribute name="MPN" value="ERJ-2RKF3603X " constant="no"/>
+<attribute name="OC_FARNELL" value="2282814 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4344 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="360K" constant="no"/>
+</technology>
+<technology name="3650X">
+<attribute name="MPN" value="ERJ-2RKF3650X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282815 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4345 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="365 OHM" constant="no"/>
+</technology>
+<technology name="3651X">
+<attribute name="MPN" value="ERJ-2RKF3651X " constant="no"/>
+<attribute name="OC_FARNELL" value="2282816 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4346 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="3.65K" constant="no"/>
+</technology>
+<technology name="3652X">
+<attribute name="MPN" value="ERJ-2RKF3652X " constant="no"/>
+<attribute name="OC_FARNELL" value="2282817 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4347 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="36.5K" constant="no"/>
+</technology>
+<technology name="3653X">
+<attribute name="MPN" value="ERJ-2RKF3653X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282818 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4348 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="365K" constant="no"/>
+</technology>
+<technology name="36R0X">
+<attribute name="MPN" value="ERJ-2RKF36R0X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282809 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4340 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="36 OHM" constant="no"/>
+</technology>
+<technology name="3740X">
+<attribute name="MPN" value="ERJ-2RKF3740X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282819 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4349 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value=" 374 OHM" constant="no"/>
+</technology>
+<technology name="3741X">
+<attribute name="MPN" value="ERJ-2RKF3741X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282820 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4350 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="3.74K" constant="no"/>
+</technology>
+<technology name="3742X">
+<attribute name="MPN" value="ERJ-2RKF3742X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282821 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4351 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="37.4K" constant="no"/>
+</technology>
+<technology name="3743X">
+<attribute name="MPN" value="ERJ-2RKF3743X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282822 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4352 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="374K" constant="no"/>
+</technology>
+<technology name="37R4X">
+<attribute name="MPN" value="ERJ-2RKF37R4X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059107 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6517 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="37R4" constant="no"/>
+</technology>
+<technology name="3831X">
+<attribute name="MPN" value="ERJ-2RKF3831X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282824 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4353 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="3.83K" constant="no"/>
+</technology>
+<technology name="3832X">
+<attribute name="MPN" value="ERJ-2RKF3832X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282825 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4354 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="38.3K" constant="no"/>
+</technology>
+<technology name="3833X">
+<attribute name="MPN" value="ERJ-2RKF3833X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282826 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4355 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="383K" constant="no"/>
+</technology>
+<technology name="3920X">
+<attribute name="MPN" value="ERJ-2RKF3920X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282828 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4357 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="392OHM" constant="no"/>
+</technology>
+<technology name="3921X">
+<attribute name="MPN" value="ERJ-2RKF3921X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282829 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4358 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="3.92K" constant="no"/>
+</technology>
+<technology name="3922X">
+<attribute name="MPN" value="ERJ-2RKF3922X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282830 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4359 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="39.2K" constant="no"/>
+</technology>
+<technology name="3923X">
+<attribute name="MPN" value="ERJ-2RKF3923X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282831 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4360 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="392K" constant="no"/>
+</technology>
+<technology name="39R2X">
+<attribute name="MPN" value="ERJ-2RKF39R2X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282827 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4356 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="39.2 OHM" constant="no"/>
+</technology>
+<technology name="4020X">
+<attribute name="MPN" value="ERJ-2RKF4020X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059123 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6519 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="402R " constant="no"/>
+</technology>
+<technology name="4021X">
+<attribute name="MPN" value="ERJ-2RKF4021X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059142 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6520 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="4K02" constant="no"/>
+</technology>
+<technology name="4022X">
+<attribute name="MPN" value="ERJ-2RKF4022X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059169 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6521 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="40K2 " constant="no"/>
+</technology>
+<technology name="4023X">
+<attribute name="MPN" value="ERJ-2RKF4023X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282832 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4361 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="402K" constant="no"/>
+</technology>
+<technology name="40R2X">
+<attribute name="MPN" value="ERJ-2RKF40R2X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059108 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6518 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="40R2 " constant="no"/>
+</technology>
+<technology name="4121X">
+<attribute name="MPN" value="ERJ-2RKF4121X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282833 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4362 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="4.12K" constant="no"/>
+</technology>
+<technology name="4122X">
+<attribute name="MPN" value="ERJ-2RKF4122X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282834 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4363 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="41.2K" constant="no"/>
+</technology>
+<technology name="4123X">
+<attribute name="MPN" value="ERJ-2RKF4123X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282836 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4364 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="412K" constant="no"/>
+</technology>
+<technology name="4220X">
+<attribute name="MPN" value="ERJ-2RKF4220X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282837 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4365" constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="422 OHM" constant="no"/>
+</technology>
+<technology name="4221X">
+<attribute name="MPN" value="ERJ-2RKF4221X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282838 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4366 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="4.22K" constant="no"/>
+</technology>
+<technology name="4222X">
+<attribute name="MPN" value="ERJ-2RKF4222X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282839 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4367 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="42.2K" constant="no"/>
+</technology>
+<technology name="4223X">
+<attribute name="MPN" value="ERJ-2RKF4223X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282840 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4368 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="422K" constant="no"/>
+</technology>
+<technology name="4300X">
+<attribute name="MPN" value="ERJ-2RKF4300X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282842 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4370 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="430 OHM" constant="no"/>
+</technology>
+<technology name="4301X">
+<attribute name="MPN" value="ERJ-2RKF4301X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282843 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4371 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="4.3K" constant="no"/>
+</technology>
+<technology name="4302X">
+<attribute name="MPN" value="ERJ-2RKF4302X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282844 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4372 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="43K" constant="no"/>
+</technology>
+<technology name="4303X">
+<attribute name="MPN" value="ERJ-2RKF4303X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282845 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4373 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="430K" constant="no"/>
+</technology>
+<technology name="4320X">
+<attribute name="MPN" value="ERJ-2RKF4320X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282846 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4374 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="432 OHM" constant="no"/>
+</technology>
+<technology name="4321X">
+<attribute name="MPN" value="ERJ-2RKF4321X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059143 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6522 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="4K32" constant="no"/>
+</technology>
+<technology name="4322X">
+<attribute name="MPN" value="ERJ-2RKF4322X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282848 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4375 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="43.2K" constant="no"/>
+</technology>
+<technology name="4323X">
+<attribute name="MPN" value="ERJ-2RKF4323X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282849 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4376 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="432K" constant="no"/>
+</technology>
+<technology name="43R2X">
+<attribute name="MPN" value="ERJ-2RKF43R2X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282841 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4369 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="43.2 OHM" constant="no"/>
+</technology>
+<technology name="4421X">
+<attribute name="MPN" value="ERJ-2RKF4421X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282851 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4378 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="4.42K" constant="no"/>
+</technology>
+<technology name="4422X">
+<attribute name="MPN" value="ERJ-2RKF4422X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059170 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6523 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="44K2" constant="no"/>
+</technology>
+<technology name="44R2X">
+<attribute name="MPN" value="ERJ-2RKF44R2X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282850 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4377 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="44.2 OHM" constant="no"/>
+</technology>
+<technology name="4530X">
+<attribute name="MPN" value="ERJ-2RKF4530X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282853 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4380 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="453 OHM" constant="no"/>
+</technology>
+<technology name="4531X">
+<attribute name="MPN" value="ERJ-2RKF4531X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282854 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4381 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="4.53K" constant="no"/>
+</technology>
+<technology name="4532X">
+<attribute name="MPN" value="ERJ-2RKF4532X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282855 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4382 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="45.3K" constant="no"/>
+</technology>
+<technology name="4533X">
+<attribute name="MPN" value="ERJ-2RKF4533X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282856 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4383 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="453K" constant="no"/>
+</technology>
+<technology name="45R3X">
+<attribute name="MPN" value="ERJ-2RKF45R3X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282852 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4379 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="45.3 OHM" constant="no"/>
+</technology>
+<technology name="4641X">
+<attribute name="MPN" value="ERJ-2RKF4641X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282857 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4384 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="4.64K" constant="no"/>
+</technology>
+<technology name="4642X">
+<attribute name="MPN" value="ERJ-2RKF4642X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282858 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4385 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="46.4K" constant="no"/>
+</technology>
+<technology name="4643X">
+<attribute name="MPN" value="ERJ-2RKF4643X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282861 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4386 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="464K" constant="no"/>
+</technology>
+<technology name="4870X">
+<attribute name="MPN" value="ERJ-2RKF4870X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282864 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4389 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="487 OHM" constant="no"/>
+</technology>
+<technology name="4871X">
+<attribute name="MPN" value="ERJ-2RKF4871X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282865 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4390 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="4.87K" constant="no"/>
+</technology>
+<technology name="4872X">
+<attribute name="MPN" value="ERJ-2RKF4872X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282866 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4391 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="48.7K" constant="no"/>
+</technology>
+<technology name="4873X">
+<attribute name="MPN" value="ERJ-2RKF4873X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282867 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4392 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="487K" constant="no"/>
+</technology>
+<technology name="4990X">
+<attribute name="MPN" value="ERJ-2RKF4990X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059126 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6528 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="499R" constant="no"/>
+</technology>
+<technology name="4991X">
+<attribute name="MPN" value="ERJ-2RKF4991X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059145 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6529 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="4K99" constant="no"/>
+</technology>
+<technology name="4992X">
+<attribute name="MPN" value="ERJ-2RKF4992X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059172 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6530 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="49K9 " constant="no"/>
+</technology>
+<technology name="4993X">
+<attribute name="MPN" value="ERJ-2RKF4993X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059189 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6531 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="499K" constant="no"/>
+</technology>
+<technology name="5100X">
+<attribute name="MPN" value="ERJ-2RKF5100X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282869 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4394 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="510 OHM" constant="no"/>
+</technology>
+<technology name="5101X">
+<attribute name="MPN" value="ERJ-2RKF5101X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282870 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4395 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="5.1K" constant="no"/>
+</technology>
+<technology name="5102X">
+<attribute name="MPN" value="ERJ-2RKF5102X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282871 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4396 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="51K" constant="no"/>
+</technology>
+<technology name="5103X">
+<attribute name="MPN" value="ERJ-2RKF5103X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282873 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4397 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="510K" constant="no"/>
+</technology>
+<technology name="5110X">
+<attribute name="MPN" value="ERJ-2RKF5110X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282874 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4398 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="511 OHM" constant="no"/>
+</technology>
+<technology name="5111X">
+<attribute name="MPN" value="ERJ-2RKF5111X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059146 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6533 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="5K11" constant="no"/>
+</technology>
+<technology name="5112X">
+<attribute name="MPN" value="ERJ-2RKF5112X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282875 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4399 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="51.1K" constant="no"/>
+</technology>
+<technology name="5113X">
+<attribute name="MPN" value="ERJ-2RKF5113X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282876 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4400 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="511K" constant="no"/>
+</technology>
+<technology name="51R0X">
+<attribute name="MPN" value="ERJ-2RKF51R0X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282868 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4393 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="51 OHM" constant="no"/>
+</technology>
+<technology name="51R1X">
+<attribute name="MPN" value="ERJ-2RKF51R1X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059110 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6532 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="51R1" constant="no"/>
+</technology>
+<technology name="5231X">
+<attribute name="MPN" value="ERJ-2RKF5231X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282878 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4402 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="5.23K" constant="no"/>
+</technology>
+<technology name="5232X">
+<attribute name="MPN" value="ERJ-2RKF5232X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059173 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6534 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="52K3" constant="no"/>
+</technology>
+<technology name="5233X">
+<attribute name="MPN" value="ERJ-2RKF5233X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282879 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4403 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="523K" constant="no"/>
+</technology>
+<technology name="52R3X">
+<attribute name="MPN" value="ERJ-2RKF52R3X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282877 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4401 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="52.3 OHM" constant="no"/>
+</technology>
+<technology name="5360X">
+<attribute name="MPN" value="ERJ-2RKF5360X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282880 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4404 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value=" 536 OHM" constant="no"/>
+</technology>
+<technology name="5361X">
+<attribute name="MPN" value="ERJ-2RKF5361X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282881 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4405 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="5.36K" constant="no"/>
+</technology>
+<technology name="5363X">
+<attribute name="MPN" value="ERJ-2RKF5363X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282883 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4407 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="563K" constant="no"/>
+</technology>
+<technology name="5490X">
+<attribute name="MPN" value="ERJ-2RKF5490X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282885 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4408 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="549 OHM" constant="no"/>
+</technology>
+<technology name="5491X">
+<attribute name="MPN" value="ERJ-2RKF5491X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282886 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4409 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="5.49K" constant="no"/>
+</technology>
+<technology name="5492X">
+<attribute name="MPN" value="ERJ-2RKF5492X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282887 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4410 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="54.9K" constant="no"/>
+</technology>
+<technology name="5493X">
+<attribute name="MPN" value="ERJ-2RKF5493X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282888 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4411 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="549K" constant="no"/>
+</technology>
+<technology name="5620X">
+<attribute name="MPN" value="ERJ-2RKF5620X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282890 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4413 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="562 OHM" constant="no"/>
+</technology>
+<technology name="5621X">
+<attribute name="MPN" value="ERJ-2RKF5621X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282891 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4414 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="5.62K" constant="no"/>
+</technology>
+<technology name="5622X">
+<attribute name="MPN" value="ERJ-2RKF5622X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059175 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6535 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="56K2" constant="no"/>
+</technology>
+<technology name="5623X">
+<attribute name="MPN" value="ERJ-2RKF5623X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282892 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4415 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="562K" constant="no"/>
+</technology>
+<technology name="56R2X">
+<attribute name="MPN" value="ERJ-2RKF56R2X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282889 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4412 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="56.2 OHM" constant="no"/>
+</technology>
+<technology name="5760X">
+<attribute name="MPN" value="ERJ-2RKF5760X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282893 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4416 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="576 OHM" constant="no"/>
+</technology>
+<technology name="5761X">
+<attribute name="MPN" value="ERJ-2RKF5761X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282894 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4417 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="5.76K" constant="no"/>
+</technology>
+<technology name="5762X">
+<attribute name="MPN" value="ERJ-2RKF5762X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282895 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4418 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="57.6K" constant="no"/>
+</technology>
+<technology name="5763X">
+<attribute name="MPN" value="ERJ-2RKF5763X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282897 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4419 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="576K" constant="no"/>
+</technology>
+<technology name="5900X">
+<attribute name="MPN" value="ERJ-2RKF5900X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282899 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4421 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="590 OHM" constant="no"/>
+</technology>
+<technology name="5901X">
+<attribute name="MPN" value="ERJ-2RKF5901X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282900 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4422 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="5.9K" constant="no"/>
+</technology>
+<technology name="5902X">
+<attribute name="MPN" value="ERJ-2RKF5902X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282901 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4423 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="59K" constant="no"/>
+</technology>
+<technology name="5903X">
+<attribute name="MPN" value="ERJ-2RKF5903X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282903 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4424 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="590K" constant="no"/>
+</technology>
+<technology name="59R0X">
+<attribute name="MPN" value="ERJ-2RKF59R0X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282898 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4420 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="59 OHM" constant="no"/>
+</technology>
+<technology name="6040X">
+<attribute name="MPN" value="ERJ-2RKF6040X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282905 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4426 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="604 OHM" constant="no"/>
+</technology>
+<technology name="6041X">
+<attribute name="MPN" value="ERJ-2RKF6041X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059147 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6536 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="6K04 " constant="no"/>
+</technology>
+<technology name="6042X">
+<attribute name="MPN" value="ERJ-2RKF6042X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059176 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6537 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="60K4" constant="no"/>
+</technology>
+<technology name="6043X">
+<attribute name="MPN" value="ERJ-2RKF6043X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282906 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4427 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="604K" constant="no"/>
+</technology>
+<technology name="60R4X">
+<attribute name="MPN" value="ERJ-2RKF60R4X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282904 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4425 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="60.4 OHM" constant="no"/>
+</technology>
+<technology name="6190X">
+<attribute name="MPN" value="ERJ-2RKF6190X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282908 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4429 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="619 OHM" constant="no"/>
+</technology>
+<technology name="6191X">
+<attribute name="MPN" value="ERJ-2RKF6191X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282909 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4430 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="6.19K" constant="no"/>
+</technology>
+<technology name="6192X">
+<attribute name="MPN" value="ERJ-2RKF6192X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059177 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6538 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="61K9" constant="no"/>
+</technology>
+<technology name="6193X">
+<attribute name="MPN" value="ERJ-2RKF6193X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282910 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4431 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="619K" constant="no"/>
+</technology>
+<technology name="61R9X">
+<attribute name="MPN" value="ERJ-2RKF61R9X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282907 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4428 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="61.9 OHM" constant="no"/>
+</technology>
+<technology name="6200X">
+<attribute name="MPN" value="ERJ-2RKF6200X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282912 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4433 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="620 OHM" constant="no"/>
+</technology>
+<technology name="6201X">
+<attribute name="MPN" value="ERJ-2RKF6201X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282913 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4434 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="6.2K" constant="no"/>
+</technology>
+<technology name="6202X">
+<attribute name="MPN" value="ERJ-2RKF6202X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282915 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4435 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="62K" constant="no"/>
+</technology>
+<technology name="62R0X">
+<attribute name="MPN" value="ERJ-2RKF62R0X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282911 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4432 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="62 OHM" constant="no"/>
+</technology>
+<technology name="6341X">
+<attribute name="MPN" value="ERJ-2RKF6341X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282916 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4436 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="6.34K" constant="no"/>
+</technology>
+<technology name="6342X">
+<attribute name="MPN" value="ERJ-2RKF6342X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282917 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4437 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="63.4K" constant="no"/>
+</technology>
+<technology name="6490X">
+<attribute name="MPN" value="ERJ-2RKF6490X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282919 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4439 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="649 OHM" constant="no"/>
+</technology>
+<technology name="6492X">
+<attribute name="MPN" value="ERJ-2RKF6492X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282921 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4441 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value=" 64.9K" constant="no"/>
+</technology>
+<technology name="6493X">
+<attribute name="MPN" value="ERJ-2RKF6493X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282922 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4442 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="649K" constant="no"/>
+</technology>
+<technology name="64R9X">
+<attribute name="MPN" value="ERJ-2RKF64R9X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282918 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4438 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="64.9 OHM" constant="no"/>
+</technology>
+<technology name="6650X">
+<attribute name="MPN" value="ERJ-2RKF6650X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282923 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4443 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="665 OHM" constant="no"/>
+</technology>
+<technology name="6651X">
+<attribute name="MPN" value="ERJ-2RKF6651X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282924 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4444 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="6.65K" constant="no"/>
+</technology>
+<technology name="6652X">
+<attribute name="MPN" value="ERJ-2RKF6652X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282925 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4445 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="66.5K" constant="no"/>
+</technology>
+<technology name="6653X">
+<attribute name="MPN" value="ERJ-2RKF6653X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282927 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4446 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="665K" constant="no"/>
+</technology>
+<technology name="6810X">
+<attribute name="MPN" value="ERJ-2RKF6810X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282929 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4448 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="681 OHM" constant="no"/>
+</technology>
+<technology name="6811X">
+<attribute name="MPN" value="ERJ-2RKF6811X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059148 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6539 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value=" 6K81" constant="no"/>
+</technology>
+<technology name="6812X">
+<attribute name="MPN" value="ERJ-2RKF6812X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282930 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4449 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value=" 68.1K" constant="no"/>
+</technology>
+<technology name="6813X">
+<attribute name="MPN" value="ERJ-2RKF6813X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282931 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4450 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="681K" constant="no"/>
+</technology>
+<technology name="68R1X">
+<attribute name="MPN" value="ERJ-2RKF68R1X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282928 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4447 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="68.1 OHM" constant="no"/>
+</technology>
+<technology name="6980X">
+<attribute name="MPN" value="ERJ-2RKF6980X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282932 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4451 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="698 OHM" constant="no"/>
+</technology>
+<technology name="6981X">
+<attribute name="MPN" value="ERJ-2RKF6981X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282933 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4452 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value=" 6.98K" constant="no"/>
+</technology>
+<technology name="6982X">
+<attribute name="MPN" value="ERJ-2RKF6982X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282934 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4453 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="69.8K" constant="no"/>
+</technology>
+<technology name="6983X">
+<attribute name="MPN" value="ERJ-2RKF6983X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282935 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4454 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="698K" constant="no"/>
+</technology>
+<technology name="7150X">
+<attribute name="MPN" value="ERJ-2RKF7150X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282937 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4456 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="715 OHM" constant="no"/>
+</technology>
+<technology name="7151X">
+<attribute name="MPN" value="ERJ-2RKF7151X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282939 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4457 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="7.15K" constant="no"/>
+</technology>
+<technology name="7152X">
+<attribute name="MPN" value="ERJ-2RKF7152X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282941 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4458 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="71.5K" constant="no"/>
+</technology>
+<technology name="7153X">
+<attribute name="MPN" value="ERJ-2RKF7153X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282942 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4459 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="715K" constant="no"/>
+</technology>
+<technology name="71R5X">
+<attribute name="MPN" value="ERJ-2RKF71R5X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282936 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4455 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="71.5 OHM" constant="no"/>
+</technology>
+<technology name="7320X">
+<attribute name="MPN" value="ERJ-2RKF7320X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282943 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4460 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="732 OHM" constant="no"/>
+</technology>
+<technology name="7321X">
+<attribute name="MPN" value="ERJ-2RKF7321X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282944 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4461 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="7.32K" constant="no"/>
+</technology>
+<technology name="7322X">
+<attribute name="MPN" value="ERJ-2RKF7322X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282945 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4462 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="73.2K" constant="no"/>
+</technology>
+<technology name="7500X">
+<attribute name="MPN" value="ERJ-2RKF7500X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059127 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6541 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="750R" constant="no"/>
+</technology>
+<technology name="7501X">
+<attribute name="MPN" value="ERJ-2RKF7501X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059151 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6542 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="7K5 " constant="no"/>
+</technology>
+<technology name="7502X">
+<attribute name="MPN" value="ERJ-2RKF7502X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059178 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6543 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="75K" constant="no"/>
+</technology>
+<technology name="7503X">
+<attribute name="MPN" value="ERJ-2RKF7503X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282946 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4463 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="750K" constant="no"/>
+</technology>
+<technology name="75R0X">
+<attribute name="MPN" value="ERJ-2RKF75R0X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059111 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6540 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="75R " constant="no"/>
+</technology>
+<technology name="7680X">
+<attribute name="MPN" value="ERJ-2RKF7680X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282947 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4464 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="768 OHM" constant="no"/>
+</technology>
+<technology name="7681X">
+<attribute name="MPN" value="ERJ-2RKF7681X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282948 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4465 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="7.68KOHM" constant="no"/>
+</technology>
+<technology name="7682X">
+<attribute name="MPN" value="ERJ-2RKF7682X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282949 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4466 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="76.8K" constant="no"/>
+</technology>
+<technology name="7870X">
+<attribute name="MPN" value="ERJ-2RKF7870X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282950 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4467 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="787 OHM" constant="no"/>
+</technology>
+<technology name="7871X">
+<attribute name="MPN" value="ERJ-2RKF7871X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282952 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4468 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="7.87K" constant="no"/>
+</technology>
+<technology name="7872X">
+<attribute name="MPN" value="ERJ-2RKF7872X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282953 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4469 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="78.7K" constant="no"/>
+</technology>
+<technology name="8060X">
+<attribute name="MPN" value="ERJ-2RKF8060X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282955 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4471 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value=" 806 OHM" constant="no"/>
+</technology>
+<technology name="8061X">
+<attribute name="MPN" value="ERJ-2RKF8061X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059152 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6544 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="8K06 " constant="no"/>
+</technology>
+<technology name="8062X">
+<attribute name="MPN" value="ERJ-2RKF8062X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059179 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6545 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="80K6" constant="no"/>
+</technology>
+<technology name="8063X">
+<attribute name="MPN" value="ERJ-2RKF8063X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282956 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4472 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value=" 806K" constant="no"/>
+</technology>
+<technology name="80R6X">
+<attribute name="MPN" value="ERJ-2RKF80R6X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282954 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4470 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value=" 80.6OHM" constant="no"/>
+</technology>
+<technology name="8250X">
+<attribute name="MPN" value="ERJ-2RKF8250X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282958 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4474 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="825 OHM" constant="no"/>
+</technology>
+<technology name="8251X">
+<attribute name="MPN" value="ERJ-2RKF8251X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059153 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6546 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="8K25" constant="no"/>
+</technology>
+<technology name="8252X">
+<attribute name="MPN" value="ERJ-2RKF8252X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282959 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4475 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="82.5K" constant="no"/>
+</technology>
+<technology name="8253X">
+<attribute name="MPN" value="ERJ-2RKF8253X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282960 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4476 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="825K" constant="no"/>
+</technology>
+<technology name="82R5X">
+<attribute name="MPN" value="ERJ-2RKF82R5X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282957 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4473 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="82.5 OHM" constant="no"/>
+</technology>
+<technology name="8450X">
+<attribute name="MPN" value="ERJ-2RKF8450X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282962 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4478 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="845 OHM" constant="no"/>
+</technology>
+<technology name="8451X">
+<attribute name="MPN" value="ERJ-2RKF8451X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282964 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4479 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="8.45K" constant="no"/>
+</technology>
+<technology name="8452X">
+<attribute name="MPN" value="ERJ-2RKF8452X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282965 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4480 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="84.5K" constant="no"/>
+</technology>
+<technology name="8453X">
+<attribute name="MPN" value="ERJ-2RKF8453X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282966 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4481 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="845K" constant="no"/>
+</technology>
+<technology name="84R5X">
+<attribute name="MPN" value="ERJ-2RKF84R5X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282961 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4477 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="84.5 OHM" constant="no"/>
+</technology>
+<technology name="8660X">
+<attribute name="MPN" value="ERJ-2RKF8660X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282967 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4482 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="866 OHM" constant="no"/>
+</technology>
+<technology name="8661X">
+<attribute name="MPN" value="ERJ-2RKF8661X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282968 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4483 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="8.66K" constant="no"/>
+</technology>
+<technology name="8662X">
+<attribute name="MPN" value="ERJ-2RKF8662X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282969 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4484 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="86.6K" constant="no"/>
+</technology>
+<technology name="8870X">
+<attribute name="MPN" value="ERJ-2RKF8870X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282970 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4485 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="887 OHM" constant="no"/>
+</technology>
+<technology name="8871X">
+<attribute name="MPN" value="ERJ-2RKF8871X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282971 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4486 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="8.87K" constant="no"/>
+</technology>
+<technology name="8872X">
+<attribute name="MPN" value="ERJ-2RKF8872X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282972 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4487 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="88.7K" constant="no"/>
+</technology>
+<technology name="8873X">
+<attribute name="MPN" value="ERJ-2RKF8873X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282973 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4488 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="887K" constant="no"/>
+</technology>
+<technology name="9091X">
+<attribute name="MPN" value="ERJ-2RKF9091X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059154 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6547 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="9K09" constant="no"/>
+</technology>
+<technology name="9092X">
+<attribute name="MPN" value="ERJ-2RKF9092X" constant="no"/>
+<attribute name="OC_FARNELL" value="2059180 " constant="no"/>
+<attribute name="OC_NEWARK" value="73T6548 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="90K9" constant="no"/>
+</technology>
+<technology name="9093X">
+<attribute name="MPN" value="ERJ-2RKF9093X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282977 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4491 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="909K" constant="no"/>
+</technology>
+<technology name="90R9X">
+<attribute name="MPN" value="ERJ-2RKF90R9X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282974 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4489 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="90.9 OHM" constant="no"/>
+</technology>
+<technology name="9100X">
+<attribute name="MPN" value="ERJ-2RKF9100X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282978 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4492 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="910 OHM" constant="no"/>
+</technology>
+<technology name="9101X">
+<attribute name="MPN" value="ERJ-2RKF9101X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282979 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4493 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="9.1K" constant="no"/>
+</technology>
+<technology name="9102X">
+<attribute name="MPN" value="ERJ-2RKF9102X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282980 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4494 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="91K" constant="no"/>
+</technology>
+<technology name="9310X">
+<attribute name="MPN" value="ERJ-2RKF9310X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282981 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4495 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="931 OHM" constant="no"/>
+</technology>
+<technology name="9311X">
+<attribute name="MPN" value="ERJ-2RKF9311X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282982 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4496 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="9.31K" constant="no"/>
+</technology>
+<technology name="9312X">
+<attribute name="MPN" value="ERJ-2RKF9312X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282983 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4497 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value=" 93.1K" constant="no"/>
+</technology>
+<technology name="9530X">
+<attribute name="MPN" value="ERJ-2RKF9530X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282985 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4499 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="953 OHM" constant="no"/>
+</technology>
+<technology name="9531X">
+<attribute name="MPN" value="ERJ-2RKF9531X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282986 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4500 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="9.53K" constant="no"/>
+</technology>
+<technology name="9532X">
+<attribute name="MPN" value="ERJ-2RKF9532X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282988 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4501 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="95.3K" constant="no"/>
+</technology>
+<technology name="9533X">
+<attribute name="MPN" value="ERJ-2RKF9533X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282989 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4502 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="953K" constant="no"/>
+</technology>
+<technology name="95R3X">
+<attribute name="MPN" value="ERJ-2RKF95R3X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282984 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4498 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="95.3 OHM" constant="no"/>
+</technology>
+<technology name="9760X">
+<attribute name="MPN" value="ERJ-2RKF9760X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282990 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4503 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="976 OHM" constant="no"/>
+</technology>
+<technology name="9761X">
+<attribute name="MPN" value="ERJ-2RKF9761X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282991 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4504 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="9.76K" constant="no"/>
+</technology>
+<technology name="9762X">
+<attribute name="MPN" value="ERJ-2RKF9762X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282992 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4505 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="97.6K" constant="no"/>
+</technology>
+<technology name="9763X">
+<attribute name="MPN" value="ERJ-2RKF9763X" constant="no"/>
+<attribute name="OC_FARNELL" value="2282993 " constant="no"/>
+<attribute name="OC_NEWARK" value="53W4506 " constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="POWERRATING" value="0.1 W" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="976K" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

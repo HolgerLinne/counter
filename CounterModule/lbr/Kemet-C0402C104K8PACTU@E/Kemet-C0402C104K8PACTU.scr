@@ -1,0 +1,90 @@
+# Created by Ultra Librarian Gold 5.3.71 Copyright © 1999-2010
+# Tanvir Mohammed, Premier Farnell
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'CAPC1005X60N.pac';
+Layer 1;
+Smd '1' 18 24 -0 R0 (-19 0);
+Layer 1;
+Smd '2' 18 24 -0 R0 (19 0);
+Layer 1;
+Layer 21;
+Layer 51;
+Wire 0 (-10 -12) (-10 12);
+Wire 0 (-10 12) (-22 12);
+Wire 0 (-22 12) (-22 -12);
+Wire 0 (-22 -12) (-10 -12);
+Wire 0 (10 12) (10 -12);
+Wire 0 (10 -12) (22 -12);
+Wire 0 (22 -12) (22 12);
+Wire 0 (22 12) (10 12);
+Wire 0 (-22 -12) (22 -12);
+Wire 0 (22 -12) (22 12);
+Wire 0 (22 12) (-22 12);
+Wire 0 (-22 12) (-22 -12);
+Layer 25;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (-136 50);
+Layer 27;
+Change Size 82;
+Change Ratio 10;
+Text '>VALUE' SR0 (-136 -125);
+
+
+Edit 'CAPH.sym';
+Layer 94;
+Pin 'C2' Pas None Short R180 Off 1 (300 0);
+Pin 'C1' Pas None Short R0 Off 1 (0 0);
+Wire 8 (137 -75) (137 75);
+Wire 8 (162 -75) (162 75);
+Wire 8 (162 0) (200 0);
+Wire 8 (100 0) (137 0);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>VALUE' SR0 (-223 -368);
+Layer 95;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (-36 109);
+
+Edit 'CAPV.sym';
+Layer 94;
+Pin '2' Pas None Short R90 Off 1 (0 -300);
+Pin '1' Pas None Short R270 Off 1 (0 0);
+Wire 8 (-75 -137) (75 -137);
+Wire 8 (-75 -162) (75 -162);
+Wire 8 (0 -162) (0 -200);
+Wire 8 (0 -100) (0 -137);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>VALUE' SR0 (100 -418);
+Layer 95;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (100 -141);
+
+Edit 'C0402C104K8PACTU.dev';
+Prefix 'C';
+Description 'CAPACITOR, 0402';
+
+Value Off;
+Add CAPH 'A' Next  1 (0 0);
+Package 'CAPC1005X60N';
+Technology '';
+Attribute Supplier 'Kemet';
+Attribute MPN 'C0402C104K8PACTU';
+Attribute Value '100 nF';
+Attribute VoltageRating '10V';
+Attribute OC_FARNELL '1288282';
+Attribute OC_NEWARK '78H4791';
+Attribute Tolerance '±10%';
+Connect 'A.C1' '1';
+Connect 'A.C2' '2';
