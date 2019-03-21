@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>license</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-  </head>
-  <body>
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
 <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 <br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fast photon counter</span> 
@@ -14,5 +5,3 @@ by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/HolgerL
 property="cc:attributionName" rel="cc:attributionURL">Holger Linné</a> is is licensed under a 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
 Creative Commons Attribution 4.0 International License</a>.
-</body>
-</html>
